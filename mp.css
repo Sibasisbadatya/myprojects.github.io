@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Arimo&family=Bebas+Neue&family=Caveat&family=Cookie&family=Dancing+Script&family=Josefin+Sans&family=Kdam+Thmor+Pro&family=Lobster+Two&family=Racing+Sans+One&family=Style+Script&family=Teko:wght@300&family=Water+Brush&display=swap');
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #ff9ff3;
+    overflow-x: hidden;
+}
+.heading{
+    font-size: 12rem;
+    font-family: 'Allison', cursive;
+    color: #48dbfb;
+    text-shadow: 2px 2px 4px #341f97;
+    font-weight: bolder;
+}
+.projects {
+    display: grid;
+    width: 100vw;
+    padding: 2vw;
+    row-gap: 1vw;
+    column-gap: 1vw;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 45vh 45vh 45vh 45vh 45vh;
+}
+
+.apllicationform {
+    background-size: 100%;
+}
+
+.bodymasindex {
+    background-size: 100%;
+}
+
+.imagegallery {
+    background-size: 100%;
+}
+
+.numberguessing {
+    background-size: 100%;
+}
+
+.mathquiz {
+    background-size: 100%;
+}
+
+.calculator {
+    background-size: 100%;
+}
+
+.digitalclock {
+    background-size: 100%;
+}
+
+.analogclock {
+    background-size: 100%;
+}
+
+.sunriseset {
+
+    background-size: 100%;
+}
+
+.tictactoe {
+
+    background-size: 100%;
+}
+#i1{
+    height: 100%;
+    width: 100%;
+}
+#i2{
+    height: 100%;
+    width: 100%;
+}
+#i3{
+    height: 100%;
+    width: 100%;
+}
+#i4{
+    height: 100%;
+    width: 100%;
+}
+#i5{
+    height: 100%;
+    width: 100%;
+}
+#i6{
+    height: 100%;
+    width: 100%;
+}
+#i7{
+    height: 100%;
+    width: 100%;
+}
+#i8{
+    height: 100%;
+    width: 100%;
+}
+#i9{
+    height: 100%;
+    width: 100%;
+}
+#i10{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    height: 4vh;
+    background-color: #e84118;
+    color: black;
+    font-size: 2.5rem;font-weight: bolder;
+}
+
+
+@media only screen and (max-width:650px){
+    .heading{
+        font-size: 6rem;
+        font-family: 'Allison', cursive;
+        color: #48dbfb;
+        text-shadow: 2px 2px 4px #341f97;
+        font-weight: bolder;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .heading{
+        font-size: 4rem;
+        font-family: 'Allison', cursive;
+        color: #ee5253;
+        text-shadow: 1px 1px 2px #222f3e;
+        font-weight: bolder;
+    }
+    .projects {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        padding: 2vw;
+        row-gap: 1vw;
+        column-gap: 1vw;
+        grid-template-columns: 30vw 30vw 30vw;
+        grid-template-rows: 45vh 45vh 45vh 45vh 45vh;
+    }
+    
+.apllicationform {
+  width: 90vw;
+  height: 60vh;
+  margin: 10px;
+}
+
+.bodymasindex {
+    width: 90vw;
+    height: 60vh;
+    margin: 10px;
+}
+
+.imagegallery {
+    width: 90vw;
+  height: 60vh;
+  margin: 10px;
+}
+
+.numberguessing {
+    width: 90vw;
+  height: 60vh;
+  margin: 10px;
+}
+
+.mathquiz {
+    width: 90vw;
+    height: 60vh;
+    margin: 10px;
+}
+
+.calculator {
+    width: 90vw;
+    height: 60vh;
+    margin: 10px;
+}
+
+.digitalclock {
+    width: 90vw;
+    height: 60vh;
+    margin: 10px;
+}
+
+.analogclock {
+    width: 90vw;
+    height: 60vh;
+    margin: 10px;
+}
+
+.sunriseset {
+    width: 90vw;
+    height: 60vh;
+    margin: 10px;
+}
+
+.tictactoe {
+
+    width: 90vw;
+    height: 60vh;
+    margin: 10px;
+}
+.footer{
+    height: 4vh;
+    background-color: #e84118;
+    color: black;
+    font-size: 2rem;font-weight: bolder;
+}
+
+}
